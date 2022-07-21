@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;    
+    background-color: #24252A;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 2vw;
+}
+
+
+nav{  
+    width: 100%;
+    height: 10vh;
+    background-color: #000;
+    text-align: center;
+    margin-bottom: 4vh;
+}
+nav ul {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    width: 25%;
+    float: left;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+section{
+    margin-right: 2vw;
+    margin-left: 2vw;
+    padding-bottom: 5vh;
+    overflow: auto;
+}
+
+h1{
+    color: #fff;
+}
+
+img{
+    width: 90%;
+    margin-left: 5%;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+#inicial
+{
+    width: 100%;
+}
+
+
+#paiHome{
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.textHome{
+    width: 80%;
+    font-size: 1.5rem;
+    margin-left: 10%;
+    text-align: center;
+   margin-top: 4vh;
+   text-align: justify;
+}
+
+.textHome h2{
+    font-size: 3rem;
+    margin-bottom: 1vh;
+    text-align: center;
+}
+
+#paiWork{
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.textWork{
+    width: 80%;
+    font-size: 1.5rem;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    text-align: justify;
+}
+
+#work h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1vh;
+}
+
+#ourTeam h2{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#paiTeam{
+    margin-top: 2vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.conteudo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.conteudo img{
+    border-radius: 100%;
+    width: 75%;
+}
+
+.imagemTeam{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textTeam{
+    font-size: 1.5rem;
+    width: 200%;
+    margin-left: 8px;
+}
+
+.textTeam h3{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5vh;
+}
+#courses h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1vh;
+}
+
+.paiCourses{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#courses1{
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 2vh;
+}
+
+#textCourses{
+    font-size: 2rem;
+    padding: 9px;
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    height: 30px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#termino{
+    width: 100%;
+    height: 5vh;
+    background-color: #24252A;
+    text-align: center;
+}
+
+#termino h1{
+    margin-top: 2vh;
+}
+
+@media (min-width:800px)
+{
+    section{
+        margin-right: 2vw;
+        margin-left: 2vw;
+        padding-bottom: 15vh;
+        overflow: auto;
+    }
+
+    nav{  
+        position: fixed;
+        width: 100%;
+        height: 10vh;
+        background-color: #24252A;
+        text-align: center;
+        margin-bottom: 8vh;
+    }
+
+    nav ul {
+        margin-top: 3vh;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul li a{
+        color: #fff;
+        text-decoration: none;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    nav ul li a:hover{
+        border-radius: 5vh;
+        padding: 10px;
+        width: 100%;
+        background-color: #fff;
+        color: #24252A;
+    }
+
+    .imagemHome{
+        text-align: center;
+        margin-top: 8vh;
+    }
+
+    img{
+        width: 70%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 15px;
+    }
+
+    .textHome{
+        width: 80%;
+        font-size: 0.9rem;
+        margin-left: 10%;
+        text-align: center;
+       margin-top: 4vh;
+       text-align: justify;
+    }
+    
+    .textHome h2{
+        font-size: 2rem;
+        margin-bottom: 1vh;
+        text-align: center;
+    }
+
+    .conteudo{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 10px;
+    }
+    
+    .conteudo img{
+        border-radius: 100%;
+        width: 75%;
+    }
+    
+    .imagemTeam{
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .textTeam{
+        font-size: 0.9rem;
+        width: 60%;
+        margin-left: 40px;
+    }
+    
+    #ourTeam h2{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 3vh;
+    }
+
+    .imagemWork{
+        width: 100%;
+        text-align: center;
+    }
+
+    .textWork{
+    font-size: 0.9rem;
+    margin-left: 10%;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    text-align: justify;
+    }
+    
+    #courses1{
+        width: 25%;
+        padding: 3vh;
+        margin-bottom: 2vh;
+    }
+    
+    #textCourses{
+        font-size: 2rem;
+        padding: 3vh;
+        text-align: center;
+    }
+
+    #imagemCourses{
+        width: 100%;
+        text-align: center;
+    }
+
+    button{
+        font-size: 0.9rem;
+        height: 8vh;
+    }
+
+    button:hover{
+        background-color: #fff;
+        color: #24252A;
+    }
+}
