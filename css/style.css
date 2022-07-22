@@ -13,15 +13,21 @@ html{
     font-size: 2vw;
 }
 
+section h1 {
+    color: #24252a;
+}
+
 
 nav{  
+    position: fixed;
     width: 100%;
-    height: 10vh;
-    background-color: #000;
+    height: 5vh;
+    background-color: #24252A;
     text-align: center;
-    margin-bottom: 4vh;
+    margin-bottom: 8vh;
 }
 nav ul {
+    margin-top: 5vh;
     height: inherit;
     display: flex;
     align-items: center;
@@ -46,6 +52,12 @@ section{
     margin-left: 2vw;
     padding-bottom: 5vh;
     overflow: auto;
+    padding-top: 14vh;
+}
+
+.imagemHome{
+    text-align: center;
+    margin-top: 13vh;
 }
 
 h1{
@@ -178,7 +190,8 @@ img{
 button{
     width: 100%;
     color: #fff;
-    background-color: #000;
+    background-color: #696969;
+    border: #000;
     border-radius: 15%;
     display: flex;
     justify-content: center;
@@ -189,15 +202,12 @@ button{
     margin: 0 auto;
 }
 
-#termino{
-    width: 100%;
-    height: 5vh;
-    background-color: #24252A;
-    text-align: center;
-}
 
-#termino h1{
-    margin-top: 2vh;
+footer{
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 13px;
+    text-align: center;
 }
 
 @media (min-width:800px)
@@ -207,7 +217,8 @@ button{
         margin-left: 2vw;
         padding-bottom: 15vh;
         overflow: auto;
-    }
+        padding-top: 14vh;
+   }
 
     nav{  
         position: fixed;
